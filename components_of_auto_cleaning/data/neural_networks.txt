@@ -1,0 +1,22 @@
+A neural network is a computational model loosely inspired by the structure of biological
+neural networks in the brain. It consists of layers of interconnected nodes, or neurons,
+each of which applies a simple mathematical transformation to its inputs and passes the
+result to the next layer.
+
+The fundamental building block is the perceptron, introduced by Frank Rosenblatt in 1958.
+A perceptron computes a weighted sum of its inputs, adds a bias term, and passes the result
+through an activation function to produce an output. When many perceptrons are arranged in
+layers and trained together, they can learn to approximate remarkably complex functions.
+
+Training a neural network involves two phases. In the forward pass, input data flows through
+the network layer by layer to produce a prediction. In the backward pass, the error of that
+prediction is propagated back through the network using the chain rule of calculus, and each
+weight is nudged slightly in the direction that reduces the error. Repeat this process
+millions of times across a large dataset, and the network gradually learns to make accurate
+predictions.
+
+Modern deep learning architectures extend this basic idea with innovations such as
+convolutional layers for spatial data, recurrent connections for sequential data, and
+attention mechanisms that allow the model to dynamically weight the relevance of different
+parts of its input. These advances have driven breakthroughs in image recognition, natural
+language processing, and scientific discovery.
